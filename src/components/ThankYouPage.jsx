@@ -2,7 +2,7 @@ import { useState } from "react";
 import OrderConfirmation from "./OrderConfirmation";
 import ReassuranceSection from "./ReassuranceSection";
 import AssuranceLayer from "./AssuranceLayer";
-import { shoesData, cameraData } from "../data/productData";
+import { shoesData, cameraData } from "./data/productData";
 
 function ThankYouPage(props) {
   const productType = props.productType;

@@ -30,9 +30,15 @@ function OrderConfirmation(props) {
             </p>
           </div>
 
-          <button className="text-sm text-slate-700 underline">
+          <button
+            onClick={() => {
+              alert("Order details page will open here");
+            }}
+            className="text-sm font-medium text-slate-700 hover:text-slate-900 underline"
+          >
             View order details
           </button>
+
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
